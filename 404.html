@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>This week at the Bake Shop</title>
+    <script>
+      (function () {
+        var base = "/kalbarri-cookery-school-preview/";
+        var l = window.location;
+        try {
+          sessionStorage.setItem("kalbarri-deep-link", l.pathname + l.search + l.hash);
+        } catch (e) {}
+        l.replace(base);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
